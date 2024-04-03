@@ -8,15 +8,15 @@
     <!--seccion links fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <!--seccion for links styles-->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/styles/style.css">
     <title>Aprende a programar desde cero</title>
 </head>
 <body>
     <!--create of the header page-->
     <header class="header">
-        <img src="https://riwi.io/wp-content/uploads/2023/07/Fondo-claro-logo.png" alt="">
+        <img class="img_logo" src="https://riwi.io/wp-content/uploads/2023/07/Fondo-claro-logo.png" alt="">
 
         <section class="barra_navegacion">
             <ul>
@@ -26,6 +26,11 @@
                 <li><a href="#">CoWorking</a></li>
             </ul>
             <button>Contacto</button>
+
+            <div class="button_language">
+                <img src="/media/img/espana.png" alt=""> 
+                <p>Espanol</p> 
+                <i class="fa-solid fa-caret-down"></i></div>
         </section>
     </header>
     <!--create of the  main section-->
@@ -56,7 +61,7 @@
                     <img src="https://riwi.io/wp-content/uploads/elementor/thumbs/7-qh1yqt3u6dorg1fff3a792qtqa31t3n7xoifty6mwg.png" alt="">
                     <h3 class="subtitulos_cart">Estudiantes:</h3>
                     <p>¿Sueñas con escribir código? ¿Programar un software? ¿Convertirte en el desarrollador del futuro?</p>
-                    <button>Mas info</button>
+                    <button class="button_more_info">Mas info.</button>
                 </div>
                 <!--item cart 2-->
                 <div class="items_cart">
@@ -65,14 +70,14 @@
                     <p>¿Estás buscando contratar desarrolladores de software para tu empresa? 
                         ¿Te gustaría reducir los costos y la complejidad de tu proceso de contratación? ¿Sufres de alta rotación de personal
                         en el departamento de tecnología? ¿Estás interesado en apoyar a jóvenes prometedores a mejorar sus vidas?</p>
-                    <button>Mas info</button>
+                    <button class="button_more_info">Mas info.</button>
                 </div>
                 <!--item cart 3-->
                 <div class="items_cart">
                     <img src="https://riwi.io/wp-content/uploads/elementor/thumbs/6-qh1ytwymrnxvtmwy9xmszsiof4rq92za1257xvksc0.png" alt="">
                     <h3 class="subtitulos_cart">Aliados:</h3>
                     <p>¿Quieres aportar algo ya sea económico o material para que estos jóvenes puedan hacer el cambio que necesitan?</p>
-                    <button class="button_proximamente">Proximamante</button>
+                    <button class="button_proximamente">Proximamante...</button>
                 </div>
             </div>
         </section>
@@ -91,7 +96,7 @@
         </section>
         <!--create section more info  mission-->
         <section class="more_info_mission">
-            <h2 class="sub_title">Be a coderChange your WORLD</h2>
+            <h2 class="sub_title">Be a coder <br> Change your <span>WORLD</span></h2>
             <!--section for  the text of our mission-->
             <div class="more_info_mission_content">
                 <!--content img-->
