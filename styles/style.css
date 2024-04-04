@@ -21,6 +21,11 @@
 body{
     font-family:var(--font-global);
 }
+.fa-brands{
+    position: sticky;
+    right: 0;
+    bottom: 0;
+}
 .sub_title{
     color: var(--e-global-color-primary);
     font-weight: 700;
@@ -354,5 +359,94 @@ body{
                 }
             }
         }
+
+        .aplic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 140px;
+
+            .aplic_cart_uno{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+                background-color: #302E4900;
+                background-image: url(https://riwi.io/wp-content/uploads/2023/07/bg-7.svg);
+                background-position: top right;
+                background-size: cover;
+                transform: translateX(80px);
+                border-radius: 50px;
+                width: 656px;
+                height: 417px;
+
+                h3{
+                    font-size: 34px;
+                    font-weight: 700;
+                    color: var(--primary-color-whithe);
+                }
+                p{
+                    font-size: 20px;
+                    color: var(--primary-color-whithe);
+                    max-width: 380px;
+                    text-align: center;
+                }
+                button{
+                    font-size: 16px;
+                    font-weight: 700;
+                    background-color: var(--color-purple);
+                    border-radius: 10px;
+                    padding: 12px 24px;
+                    border: none;
+                    color: var(--primary-color-whithe);
+                    cursor: pointer;
+                }
+                button:hover{
+                    background-color: #4939d6;
+                }
+            }
+            .aplic_cart_dos{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+                background-color: #6B5CFF00;
+                background-image: url(https://riwi.io/wp-content/uploads/2023/07/bg-5.svg);
+                background-position: bottom left;
+                background-size: cover;
+                transform: translateX(-);
+                transform: translateY(48px);
+                border-radius: 50px;
+                width: 656px;
+                height: 417px;
+
+                h3{
+                    font-size: 34px;
+                    font-weight: 700;
+                    color: var(--primary-color-whithe);
+                }
+                p{
+                    font-size: 20px;
+                    color: var(--primary-color-whithe);
+                    max-width: 300px;
+                    text-align: center;
+                }
+                button{
+                    font-size: 16px;
+                    font-weight: 700;
+                    background-color: var(--e-global-color-primary);
+                    border-radius: 10px;
+                    padding: 12px 24px;
+                    border: none;
+                    color: var(--primary-color-whithe);
+                    cursor: pointer;
+                }
+                
+            }
+
+        }
     }
+
 }
