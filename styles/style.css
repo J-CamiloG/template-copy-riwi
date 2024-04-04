@@ -450,3 +450,85 @@ body{
     }
 
 }
+.footer{
+    margin-top: 150px;
+    .our_curse_links{
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        .link_principal{
+            height: auto;
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            img{
+                width: 100px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 26px;
+                fill: var(--e-global-color-primary);
+                color: var(--e-global-color-primary);
+                font-weight: 700;
+                line-height: 1;
+            }
+            /* a:hover{
+                border-bottom: solid var(--color-purple) 2px;
+                color: var(--color-focus-nav);
+            } */
+        }
+        .link_item_container{
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            gap: 10px;
+
+            ul{
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                gap: 20px;
+                flex-direction: column;
+                list-style: none;
+
+                li{
+                    a{
+                        text-decoration: none;
+                        color: var(--e-global-color-secondary);
+                    }
+                }
+            }
+        }
+    }
+    .social_and_copy{
+        margin-top: 50px;
+        margin-left: 50px;
+        padding: 20px 20px 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: var(--e-global-color-primary);
+                border-radius: 100%;
+                width: 30px;
+                height: 30px;
+                a{
+                    i{
+                        color: var(--primary-color-whithe);
+                    }
+                }
+            }
+        }
+    }
+}
